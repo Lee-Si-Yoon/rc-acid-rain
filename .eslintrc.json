@@ -34,6 +34,9 @@
         "newlines-between": "always"
       }
     ],
-    "import/no-unresolved": [2, { "caseSensitiveStrict": true }]
+    "import/no-unresolved": [2, { "caseSensitiveStrict": true }],
+    "@typescript-eslint/no-inferrable-types": "warn",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/no-empty-function": "warn"
   }
 }

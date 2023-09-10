@@ -1,4 +1,5 @@
-import Text from "./components/polymorphic-button";
-import type { TextType } from "./components/polymorphic-button";
+import Typing, { TypingRef } from "./components/typing";
+export * from "./components/canvas/types";
+export * from "./hooks";
 
-export { Text, TextType };
+export { Typing, TypingRef };
